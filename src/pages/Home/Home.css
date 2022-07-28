@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.HomeContainer{
+    background-color: #371B58;
+    height: 100vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    
+}
+
+.title{
+    font-size: 100px;
+    font-family: 'Kalam', cursive;
+    border-bottom: 1px solid white;
+    transition-duration: 2s;
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 6vh;
+    font-size: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.5em;
+}
+.animationSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh;
+    font-size: 40px;
+}
+.animationSection__heading{
+    border-bottom: 1px solid white;
+    padding-bottom: 1%;
+}
+
+.componentSection{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+}
